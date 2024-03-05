@@ -14,3 +14,44 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+.vizitka {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.facebook {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3b5998;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.twitter {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1da1f2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pinterest {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d52e2e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;   
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d52e2e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;   
+}
