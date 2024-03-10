@@ -13,6 +13,26 @@ tlačítko Twitter aktivní:	 #0b7bc1
 tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
+body {
+    font-family: "Nunito", serif;
+    background-color: #b2bec3;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    float: right;
+    margin: -75px;
+    /* margin-left: 66%; */ 
+}
+
+h1{
+    color: #d63031;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 30px;
+}
 
 .vizitka {
     background-color: white;
@@ -27,6 +47,13 @@ tlačítko Facebook aktivní: #2b406e
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    text-transform: uppercase;
+    margin-left: 30px;
+       margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    min-width: 490px;
 }
 
 .twitter {
@@ -36,22 +63,28 @@ tlačítko Facebook aktivní: #2b406e
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    min-width: 490px;
 }
 
-.pinterest {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #d52e2e;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;   
+div {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-inline-start: 33%;
+    border-radius: 10px;
+    background-color: white;
+    width: 550px;
+    box-shadow: 5px 5px 5px 5px grey;
+  
 }
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #d52e2e;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;   
+h1, p, button {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
 }
